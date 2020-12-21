@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/tag0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:padding="0dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/swami"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tag0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SEE Class 10 Principle Of Accountancy"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="35dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="1"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag1">
+
+                        <TextView
+                            android:id="@+id/btntxt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="2"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag2">
+
+                        <TextView
+                            android:id="@+id/btntxt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="20dp"
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="3"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag3">
+
+                        <TextView
+                            android:id="@+id/btntxt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="4"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag4">
+
+                        <TextView
+                            android:id="@+id/btntxt4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag5"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="5"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag5">
+
+                        <TextView
+                            android:id="@+id/btntxt5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="20dp"
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag6"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="6"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag6">
+
+                        <TextView
+                            android:id="@+id/btntxt6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag7"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="7"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag7">
+
+                        <TextView
+                            android:id="@+id/btntxt7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag8"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="8"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag8">
+
+                        <TextView
+                            android:id="@+id/btntxt8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="20dp"
+                android:id="@+id/card9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag9"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="9"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag9">
+
+                        <TextView
+                            android:id="@+id/btntxt9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag10"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="10"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag10">
+
+                        <TextView
+                            android:id="@+id/btntxt10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card11"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag11"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="11"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag11">
+
+                        <TextView
+                            android:id="@+id/btntxt11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="20dp"
+                android:id="@+id/card12"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:cardElevation="76dp"
+                app:cardCornerRadius="8dp"
+                android:layout_margin="12dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tag12"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background= "@drawable/tag"
+                        android:scaleType="centerCrop"
+                        android:padding="0dp"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textColor="#ffff"
+                            android:text="12"
+                            android:textStyle="bold"
+                            android:textSize="50dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tag12">
+
+                        <TextView
+                            android:id="@+id/btntxt12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000"/>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
